@@ -1,0 +1,16 @@
+{
+  "name": "domical",
+  "version": "0.0.1",
+  "main": "./bundle.js",
+  "typings": "./domical.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc && simplifyify domical.js --debug -o bundle.js"
+  },
+  "dependencies": {
+    "domic": "^1.0.0-beta13",
+    "domic-app": "^0.1.7",
+    "domic-i18n": "^0.1.2",
+    "domic-material": "^0.2.1"
+  }
+}

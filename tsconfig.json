@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declaration": true,
+        "sourceMap": true,
+	"strictNullChecks": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "jsx": "react",
+	"jsxFactory": "D",
+        "experimentalDecorators": true,
+        "outDir": "./",
+        "lib": ["es6", "dom"]
+    },
+    "files": [
+        "./domical.ts"
+    ]
+}
