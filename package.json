@@ -1,11 +1,11 @@
 {
   "name": "domical",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./bundle.js",
   "typings": "./domical.d.ts",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "tsc && simplifyify domical.js -m -s domical --debug -o bundle.js"
+    "build": "tsc && simplifyify domical.js -s domical --debug -o bundle.js"
   },
   "dependencies": {
     "domic": "^1.0.0-beta13",
